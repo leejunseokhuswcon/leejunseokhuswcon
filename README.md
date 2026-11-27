@@ -12,6 +12,12 @@
 
 [![ARISE 시작 화면과 소화기 탐색·진압·대피 미션](https://raw.githubusercontent.com/leejunseokhuswcon/ARISE/main/docs/images/arise-overview.jpg)](https://github.com/leejunseokhuswcon/ARISE)
 
+### Hyper-AutoPark-Rover · 자동 주차 로버 팀 프로젝트
+
+ArUco 마커 검출 모듈과 웹캠 테스트 앱을 구현하고, 비콘 탐색부터 전면 주차까지 상태 흐름을 통합했습니다. 각 변경의 구현 내용, 테스트 결과, 실물 검증 범위는 병합된 PR에서 확인할 수 있습니다.
+
+**Python · OpenCV · Arduino UNO Q** · [ArUco 검출 PR](https://github.com/yumina0616/Hyper-AutoPark-Rover/pull/13) · [상태 흐름 통합 PR](https://github.com/yumina0616/Hyper-AutoPark-Rover/pull/27)
+
 ### StayPet · AI 반려동물 라이프 시뮬레이션
 
 반려동물 사진으로 캐릭터를 생성하는 백엔드 PoC입니다. FastAPI와 워커가 요청 접수와 생성 처리를 나누고, 모의 생성기와 실제 생성기가 같은 API 계약을 사용합니다. 업로드와 생성 작업을 확인하는 테스트가 저장소에 있습니다.
